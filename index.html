@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head Section-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoTravel</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <!--style sheet Link-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awsome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="playfair-font">
+<!--Disclaimer-->
+    <p style="text-align:center; background:#fff3cd; padding:10px;">
+This is a practice project and not related to any official website.
+</p>
+    <!-- Header Section -->
+    <header>
+        <!--Navigation bar-->
+        <nav>
+            <div class="navbar">
+                <div class="nav__logo">
+                    <!--<img src="images/triplogo.jpeg" alt="triplogo">-->
+                    <h1>
+                        <span style="color: #00AA6C">Go</span>Travel
+                    </h1>
+                </div>
+                <div class="nav__search">
+                    <i class="fa-solid fa-magnifying-glass" style="color: rgb(4, 4, 5);"></i>
+                    <input type="text" placeholder="search for hotels,restaurants,things to do...">
+                    <button>Search</button>
+                </div>
+                <div class="nav__categ">
+                    <p>Hotels</p>
+                    <p>Restaurants</p>
+                    <p>Experiences</p>
+                    <button>Sign In</button>
+                </div>
+            </div>
+        </nav>
+         </header>
+        <!--Menu Bar-->
+        <div>
+            <ul class="menubar">
+                <li>🏢 Hotels</li>
+                <li>✈️ Flights</li>
+                <li>🍽 Restaurants</li>
+                <li>🎭 Things To do</li>
+                <li>🚗 Rentals</li>
+                <li>🏖 Vacation Rentals</li>
+                <li>🗺 Travel Forums</li>
+                <li>🌎 Travel Guides</li>
+                <li>🚢 Cruises</li>
+            </ul>
+        </div>
+   
+    <!--Main section-->
+    <main>
+        <!--section 1-Search block-->
+        <section>
+            <div class="search__block">
+                <div class="search__block__master">
+                    <div class="search__block__content">
+                        <h4>🌟 Discover amazing places around the world</h4>
+                        <h1>Where will your next <span style="color: #34E0A1;"> adventure </span>take you?</h1>
+                        <h3>Discover hotels, restaurants, and experiences trusted by 463 million travellers worldwide.
+                        </h3>
+                        <div class="search__block__search">
+                            📍 <input type="text" placeholder="City,hotel,restaurants, or attraction...">
+                            <button>🔍 Search</button>
+                        </div>
+                    </div>
+                    <div class="search__block__catg">
+                        <p>🏬 Hotels</p>
+                        <p>🍜 Restaurants</p>
+                        <p>🎡 Experiences</p>
+                        <p>⭐️ Top Rated</p>
+                        <p>💰 Budget Friendly</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--section 2-Filters-->
+        <section>
+            <div class="filter-block">
+                <div class="filter__group">
+                    <label>Destination</label>
+                    <input type="text" placeholder="Where are you going?">
+                </div>
+                <div class="filter__group">
+                    <label>Check-In</label>
+                    <input type="date">
+                </div>
+                <div class="filter__group">
+                    <label>Check-Out</label>
+                    <input type="date">
+                </div>
+                <div class="filter__group">
+                    <label>Travellers</label>
+                    <select>
+                        <option>1 Adult</option>
+                        <option>2 Adults</option>
+                        <option>2 Adults, 1 child</option>
+                        <option>2 Adults, 2 children</option>
+                        <option>Group (5+)</option>
+                    </select>
+                </div>
+                <div class="filter__group">
+                    <label>Price Range</label>
+                    <select>
+                        <option>Any Price</option>
+                        <option>Budget Under (3,000)</option>
+                        <option>Mid-Range (3k-8k)</option>
+                        <option>Luxury (8k+)</option>
+                    </select>
+                </div>
+                <div class="filter__group">
+                    <label>Rating</label>
+                    <select>
+                        <option>Any Rating</option>
+                        <option>⭐⭐⭐⭐⭐</option>
+                        <option>⭐⭐⭐⭐</option>
+                        <option>⭐⭐⭐</option>
+                    </select>
+                </div>
+                <button class="filter__button">Apply Filters</button>
+            </div>
+        </section>
+        <!--section 3-Featured Destinations-->
+        <section>
+            <div class="Featured__block">
+                <div class="Featured__block__s1">
+                    <h1>Featured Destinations</h1>
+                    <p>Handpicked places travellers love right now</p>
+                </div>
+                <div class="Featured__block__s2">
+                    <div class="Featured__block__s2-card">
+                        <img src="images/Featured (1).jpg" alt="Travel pic">
+                        <p>🔥 Trending</p>
+                        <div class="card-txt">
+                            <h3>Taj Mahal</h3>
+                            <h5>Agra, Uttar Pradesh · 4,200+ hotels</h5>
+                        </div>
+                    </div>
+                    <div class="Featured__block__s2-card">
+                        <img src="images/Featured (2).jpg" alt="Travel pic">
+                        <p>❄️ Winter Pick</p>
+                        <div class="card-txt">
+                            <h3>Lake & Forest view </h3>
+                            <h5>Sikkim · 1,800+ stays</h5>
+                        </div>
+                    </div>
+                    <div class="Featured__block__s2-card">
+                        <img src="images/Featured (3).jpg" alt="Travel pic">
+                        <p>🌺 Popular</p>
+                        <div class="card-txt">
+                            <h3>Step Well (Baoli)</h3>
+                            <h5>New Delhi · 6,500+ hotels</h5>
+                        </div>
+                    </div>
+                    <div class="Featured__block__s2-card">
+                        <img src="images/Featured (4).jpg" alt="Travel pic">
+                        <p>🥐 Classic</p>
+                        <div class="card-txt">
+                            <h3>Qutub Minar</h3>
+                            <h5>New Delhi · 9,000+ hotels</h5>
+                        </div>
+
+                    </div>
+                    <div class="Featured__block__s2-card">
+                        <img src="images/Featured (5).jpg" alt="Travel pic">
+                        <p>✨ Luxury</p>
+                        <div class="card-txt">
+                            <h3>India Gate</h3>
+                            <h5>New Delhi · 3,200+ hotels</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--section 4-Popular-Hotels-->
+        <section>
+            <div class="Popular-Hotels">
+                <div class="Popular-Hotels__title">
+                    <h1>Popular Hotels</h1>
+                    <p>Top-rated stays chosen by our community</p>
+                </div>
+                <div class="Top-Rated__block">
+                    <!--Card 1-->
+                    <div class="card-master">
+                        <div class="card__img">
+                            <img src="images/palace1.jfif" alt="The Leela Palace">
+                            <p>🤍</p>
+                            <h5>From ₹12,500 / night</h2>
+                        </div>
+                        <div class="card-text">
+                            <h3>The Leela Palace, New Delhi</h3>
+                            <p>⭐⭐⭐⭐⭐ 5.0- 2,481 reviews</p>
+                            <p>A magnificent palatial hotel offering opulent rooms, world-class dining, and impeccable
+                                service in the heart of Chanakyapuri.</p>
+                        </div>
+                        <div class="card-catg">
+                            <p>🏊 Pool</p>
+                            <p>🍽️ Fine Dining</p>
+                            <p>🧖 Spa</p>
+                        </div>
+                    </div>
+                     <!--Card 2-->
+                    <div class="card-master">
+                        <div class="card__img">
+                            <img src="images/palace2.jfif" alt="Taj Falaknuma Palace">
+                            <p>❤️</p>
+                            <h5>From ₹28,000 / night</h2>
+                        </div>
+                        <div class="card-text">
+                            <h3>Taj Falaknuma Palace, Hyderabad</h3>
+                            <p>⭐⭐⭐⭐⭐ 4.9 · 1,924 reviews</p>
+                            <p>Perched atop a hillock with panoramic views, this former royal residence is a jewel of Nizam architecture and hospitality.</p>
+                        </div>
+                        <div class="card-catg">
+                            <p>👑 Royal</p>
+                            <p>🌅 View</p>
+                            <p>🐴 Heritage</p>
+                        </div>
+                    </div>
+                     <!--Card 3-->
+                    <div class="card-master">
+                        <div class="card__img">
+                            <img src="images/palace3.jfif" alt="The Leela Palace">
+                            <p>🤍</p>
+                            <h5>From ₹15,000 / night</h2>
+                        </div>
+                        <div class="card-text">
+                            <h3>ITC Grand Chola, Chennai</h3>
+                            <p>⭐⭐⭐⭐⭐ 4.6 · 3,102 reviews</p>
+                            <p>South India's grandest luxury hotel inspired by the magnificent Chola architecture, with extraordinary restaurants and amenities.</p>
+                        </div>
+                        <div class="card-catg">
+                            <p>🏊 Pool</p>
+                            <p>🏋️ Gym</p>
+                            <p>🎭 Events</p>
+                        </div>
+                    </div>
+                     <!--Card 4-->
+                    <div class="card-master">
+                        <div class="card__img">
+                            <img src="images/palace 4.avif" alt="The Leela Palace">
+                            <p>🤍</p>
+                            <h5>From ₹22,000 / night</h2>
+                        </div>
+                        <div class="card-text">
+                            <h3>Park Hyatt Chennai </h3>
+                            <p>⭐⭐⭐⭐ 4.7- 1,481 reviews</p>
+                            <p>It doesn’t follow a traditional palace style, but offers a minimal, premium, and peaceful vibe. It’s especially loved by business travelers and couples.</p>
+                        </div>
+                        <div class="card-catg">
+                            <p>🏊 Pool</p>
+                            <p>👉 wellness</p>
+                            <p>🛏️ Rooms</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--section 5-Top-Rated Restaurants-->
+        <section>
+            <div class="Top-Rated">
+                <div class="Top-Rated__title">
+                    <h1>Top-Rated Restaurants</h1>
+                    <p>Exceptional dining experiences near you</p>
+                </div>
+                <!--imagesss-->
+                <div class="Top-Rated__block">
+                    <!--Card 1-->
+                    <div class="card-master">
+                        <div class="card__img">
+                            <img src="images/palace1.jfif" alt="The Leela Palace">
+                            <p>❤️</p>
+                            <h5>· North Indian</h2>
+                        </div>
+                        <div class="card-text">
+                            <h3>Bukhara, ITC Maurya – New Delhi</h3>
+                            <p>⭐⭐⭐⭐⭐ 5.0- 5,631 reviews</p>
+                            <p>Legendary restaurant known globally for its signature Dal Bukhara and frontier-style cuisine — a dining institution since 1977.</p>
+                        </div>
+                        <div class="card-catg">
+                            <p>🌶️ North Indian</p>
+                            <p>🏆 Award Winning</p>
+                          
+                        </div>
+                    </div>
+                     <!--Card 2-->
+                    <div class="card-master">
+                        <div class="card__img">
+                            <img src="images/palace2.jfif" alt="Taj Falaknuma Palace">
+                            <p>🤍</p>
+                            <h5>Modern Indian</h2>
+                        </div>
+                        <div class="card-text">
+                            <h3>Indian Accent – New Delhi</h3>
+                            <p>⭐⭐⭐⭐⭐ 4.9 · 4,210 reviews</p>
+                            <p>Consistently ranked among Asia's 50 best restaurants, Indian Accent reimagines Indian cuisine with global influences and local ingredients.</p>
+                        </div>
+                        <div class="card-catg">
+                            <p>🍴 Fine Dining</p>
+                            <p>🥂 Tasting Menu</p>
+                        </div>
+                    </div>
+                     <!--Card 3-->
+                    <div class="card-master">
+                        <div class="card__img">
+                            <img src="images/palace3.jfif" alt="The Leela Palace">
+                            <p>🤍</p>
+                            <h5>Seafood</h2>
+                        </div>
+                        <div class="card-text">
+                            <h3>Pappadeaux Seafood – Chennai</h3>
+                            <p>⭐⭐⭐⭐⭐ 4.5 · 2,890 reviews</p>
+                            <p>Fresh catches from the Bay of Bengal, cooked in traditional Tamil and Chettinad spice blends with a stunning sea-view dining terrace.</p>
+                        </div>
+                        <div class="card-catg">
+                            <p>🦞 Seafood</p>
+                            <p>🌊 Sea View</p>
+                        </div>
+                    </div>
+                     <!--Card 4-->
+                    <div class="card-master">
+                        <div class="card__img">
+                            <img src="images/palace 4.avif" alt="The Leela Palace">
+                            <p>🤍</p>
+                            <h5>Italian</h2>
+                        </div>
+                        <div class="card-text">
+                            <h3>Toscano – Bengaluru </h3>
+                            <p>⭐⭐⭐⭐ 4.7- 3,120 reviews</p>
+                            <p>A cozy Italian restaurant offering authentic wood-fired pizzas, fresh pasta, and a warm ambiance perfect for family dinners and romantic evenings.</p>
+                        </div>
+                        <div class="card-catg">
+                            
+                            <p>🍷 Fine Dining </p>
+                            <p>🌇 City View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+
+    <footer class="footer__block">
+        <div class="footer__sec1">
+            <div class="sec1-logo" >
+                <!--<img src="images/triplogo.jpeg" alt="Logo">-->
+                <h1><span style="color: #34E0A1;"> Go</span>Travel</h1>
+                <p class="desc">Your trusted platform to explore amazing destinations around the world.</p>
+                <div class="logo-icons">
+                    <p><i class="fa-brands fa-square-x-twitter" style="color: rgb(150, 150, 150);"></i></p>
+                    <p><i class="fa-brands fa-facebook" style="color: rgb(150, 150, 150);"></i></i></p>
+                    <p><i class="fa-brands fa-linkedin" style="color: rgb(150, 150, 150);"></i></p>
+                    <p><i class="fa-brands fa-instagram" style="color: rgb(150, 150, 150);"></i></p>
+                    <p><i class="fa-brands fa-square-youtube" style="color: rgb(150, 150, 150);"></i></p>
+                </div>
+            </div>
+            <div class="sec1-Explore">
+                <h3>Explore</h3>
+                <p>Hotels</p>
+                <p>Bed & Breakfasts</p>
+                <p>Flights</p>
+                <p>Vacation Rentals</p>
+                <p>Restaurants</p>
+                <p>Things to Do</p>
+                <p>Cruises</p>
+            </div>
+            <div class="sec1-Business">
+                <h3>Business</h3>
+                <p>List Your Property</p>
+                <p>Owners & Managers</p>
+                <p>Advertise with Us</p>
+                <p>TripAdvisor Insights</p>
+                <p>Access Management</p>
+                <p>Things to Do</p>
+                <p>Support Center</p>
+            </div>
+            <div class="sec1-Company">
+                <h3>Company</h3>
+                <p>About GoTravel</p>
+                <p>Bed & Breakfasts</p>
+                <p>Press Room</p>
+                <p>Investor Relations</p>
+                <p>Trust & Safety</p>
+                <p>Things to Do</p>
+                <p>Help Center</p>
+                <p>Careers</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer__sec2">
+            <div>
+                <p>© 2026 Tourism Website UI LLC. All rights reserved. | Made with ❤️ for travellers worldwide.</p>
+            </div>
+            <div class="sec2-catg">
+                <p>🔒 Secure</p>
+                <p>🌱 Carbon Neutral</p>
+                <p>♿ Accessible</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
